@@ -1,0 +1,59 @@
+#navbar {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #0F0;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+#header {
+	font-size: 36px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#body {
+	text-align: center;
+}
+
+body {
+	background-color: #000;
+}
+body,td,th {
+	color: #0F0;
+	font-size: 36px;
+	text-align: center;
+}
+.container {
+	background-color: #4BB648;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1000px;
+	background-repeat: repeat;
+	padding-bottom: 10px;
+}
+
+
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+a:active {
+	text-decoration: none;
+	color: #000;
+}
+body {
+	background-color: #4ab825;
+	background-image: url(../assets/Background.png);
+	background-repeat: repeat;
+}
+body,td,th {
+	color: #000;
+}

@@ -1,0 +1,150 @@
+midline{
+	
+}
+
+p{
+	font-family:"Courier New", Courier, monospace;
+	color:#f6eb13;
+	size:20px;
+	
+}
+
+h1{
+	font-family:"Courier New", Courier, monospace;
+	color:#f6eb13;
+	size:40px
+	
+}
+
+h2{
+	font-family:"Courier New", Courier, monospace;
+	color:#f6eb13;
+	size:30px
+	
+}
+
+h3{
+	font-family:"Courier New", Courier, monospace;
+	color:#f6eb13;
+	size:20px;
+
+}
+
+a{
+	font-family:"Courier New", Courier, monospace;
+	color:#13f6be;
+	size:20px;
+
+}
+
+ul{
+	font-family:"Courier New", Courier, monospace;
+	color:#f6eb13;
+	size:20px;
+
+}
+
+ol{
+	font-family:"Courier New", Courier, monospace;
+	color:#f6eb13;
+	size:20px;
+	
+}
+
+.link{
+		font-family:"Courier New", Courier, monospace;
+		color:13f6be;
+		size:20px;
+		
+}
+
+.nav{
+	font-family:"Courier New", Courier, monospace;
+	color:#f6eb13;
+	size:40px
+	
+}
+.op{
+	opacity:.7
+}
+.navbar{
+	width:965px;
+	height:200px;
+	margin:0px auto;
+	overflow:hide;
+}
+#home{
+	border-width: 0px;
+    border-style: solid;
+    overflow: hidden;
+	background-color:4BB648;
+	width:230;
+	height:100;
+	float:left;
+	text-align:center;
+}
+#info{
+	border-width: 0px;
+    border-style: solid;
+    overflow: hidden;
+	background-color:4BB648;
+	width:230;
+	height:100;
+	float:left;
+	text-align:center;
+}
+#news{
+	border-width: 0px;
+    border-style: solid;
+    overflow: hidden;
+	background-color:4BB648;
+	width:230;
+	height:100;
+	float:left;
+	text-align:center;
+}
+#mem{
+	border-width: 0px;
+    border-style: solid;
+    overflow: hidden;
+	background-color:4BB648;
+	width:230;
+	height:100;
+	float:left;
+	text-align:center;
+}
+#rap{
+	width:956px;
+	background-color:4BB648;
+	margin:0px auto;
+	overflow:hide;
+}
+	
+.menuItem ul li{
+	float:left;
+}
+
+.s{
+	width:100%;
+	max-width:965px;
+}
+
+.menu{
+	text-decoration:none;
+	list-style:none;
+	position:relative;
+}
+
+#rutgers{
+	width:100%;
+	max-width:770px;
+}
+#hpic1{
+	position:absolute;
+	height:100%;
+	width:100%;
+	background-color:#666;
+	opacity:.5;
+	z-index:9999999;
+	margin:-10px;
+}

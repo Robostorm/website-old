@@ -1,0 +1,244 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Robostorm Robotics\n\n\nRobostorm Robotics\n is a part of Hunterdon County 4-H in New Jersey. We are the first non-agricultural club in the county, focusing on robotics and technology. We were founded in 2011 with only five members, and have since grown to accomodate more than twenty. We work on many projects, including our \nAquabot\n, \nAquaponics\n, \n3D Printing\n, and \nmore\n.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#robostorm-robotics", 
+            "text": "Robostorm Robotics  is a part of Hunterdon County 4-H in New Jersey. We are the first non-agricultural club in the county, focusing on robotics and technology. We were founded in 2011 with only five members, and have since grown to accomodate more than twenty. We work on many projects, including our  Aquabot ,  Aquaponics ,  3D Printing , and  more .", 
+            "title": "Robostorm Robotics"
+        }, 
+        {
+            "location": "/aquabot/", 
+            "text": "Aquabot\n\n\nAs we were sitting around during our second fair, thirsty for water in the hot sun, we wondered if we could build a robot to bring water to us, rather than having to get water ourselves. And such, the Aquabot was born. We an old powered wheelchair donated to us, and we added remote controls and a cooler with a dispenser and bill acceptor.\n\n\nDrive Controls\n\n\nThe first thing we did with the wheelchair was to figure out how to get it to move. The original electronics required a key, and we did not have the charger. We decided instead to rip them out, and add our own. We wanted the Aquabot to be completly safe, so we put a bumper on the front, along with an emergency stop button, that completly disabled movement when hit. The only way to renable it was with either a key or to open the electronics box and flip a switch. We found a nice motor controller to control both motors, and could take inputs directly from the hobby reciever that we were using for remote control. We later added a microcontroller between the reciever and the motor controller in order to smooth out the controls and use a button on the remote as a driving eneable.\n\n\nDispenser and Bill Acceptor\n\n\nThe first version of the cooler used a Lego Mindstorms to accept bills and dispense water. It could only hold a few bottles at a time, and would not always dispense reliably. We then decided to replace it with a 3d printed dispenser that was smaller, more reliable, and could hold more bottles. At the same time, the Lego bill acceptor was replaced with a bill acceptor from an old vending machine. To control the new dispenser and bill acceptor, the Lego Mindstorms was replaced with a \nTeensy++ 2.0\n on a custom control board. We also added an LCD and keypad to show bottles left, sold, and allow some configuration. We also added some LED strips around the Aquabot, just for the intense lighting at night. The Teensy provided a nice was to control everthing with a \nprogram\n written C.", 
+            "title": "Aquabot"
+        }, 
+        {
+            "location": "/aquabot/#aquabot", 
+            "text": "As we were sitting around during our second fair, thirsty for water in the hot sun, we wondered if we could build a robot to bring water to us, rather than having to get water ourselves. And such, the Aquabot was born. We an old powered wheelchair donated to us, and we added remote controls and a cooler with a dispenser and bill acceptor.", 
+            "title": "Aquabot"
+        }, 
+        {
+            "location": "/aquabot/#drive-controls", 
+            "text": "The first thing we did with the wheelchair was to figure out how to get it to move. The original electronics required a key, and we did not have the charger. We decided instead to rip them out, and add our own. We wanted the Aquabot to be completly safe, so we put a bumper on the front, along with an emergency stop button, that completly disabled movement when hit. The only way to renable it was with either a key or to open the electronics box and flip a switch. We found a nice motor controller to control both motors, and could take inputs directly from the hobby reciever that we were using for remote control. We later added a microcontroller between the reciever and the motor controller in order to smooth out the controls and use a button on the remote as a driving eneable.", 
+            "title": "Drive Controls"
+        }, 
+        {
+            "location": "/aquabot/#dispenser-and-bill-acceptor", 
+            "text": "The first version of the cooler used a Lego Mindstorms to accept bills and dispense water. It could only hold a few bottles at a time, and would not always dispense reliably. We then decided to replace it with a 3d printed dispenser that was smaller, more reliable, and could hold more bottles. At the same time, the Lego bill acceptor was replaced with a bill acceptor from an old vending machine. To control the new dispenser and bill acceptor, the Lego Mindstorms was replaced with a  Teensy++ 2.0  on a custom control board. We also added an LCD and keypad to show bottles left, sold, and allow some configuration. We also added some LED strips around the Aquabot, just for the intense lighting at night. The Teensy provided a nice was to control everthing with a  program  written C.", 
+            "title": "Dispenser and Bill Acceptor"
+        }, 
+        {
+            "location": "/aquaponics/", 
+            "text": "Aquaponics", 
+            "title": "Aquaponics"
+        }, 
+        {
+            "location": "/aquaponics/#aquaponics", 
+            "text": "", 
+            "title": "Aquaponics"
+        }, 
+        {
+            "location": "/3dprinter/", 
+            "text": "3D Printing\n\n\nClub 3D Printer\n\n\n\n\nAs a way to teach members about not only 3d printing, but also electronics and mechanics, the club bought a \nReprappro Monomendel\n kit for the members to assemble. This kit was chosen because some of the members had built one on their own time, and could help other members putting it together. Once it was build, we rotated the printed between members, so whoever wanted to print something could. After building the club printer, many members wanted their own. They bought the same kit, and used their experience from building the club printer to build their own.\n\n\nNametag Printing at the Fair\n\n\nWith so many members that had their own printers, we needed something for them all to do at the fair. As a way to make some money at it, we came up with the idea of printing custom nametags for fairgoers, for only a dollar each. In order to do this, we needed an automated system to take names, generate the nametag, prepare it for printing, and print it on the printers. To make printing to the printers easier, we set up each printer with a \nRaspberry Pi\n running \nOctoprint\n. This allowed an easy was to a central server to print to each of the printers, without needing to be directly connected to each one.\n\n\nThe Original Nametag System\n\n\nThe server to collect and print the nametags has benn revised many times since it's initial release. The one used for the first fair we did nametags was based off a Java Tomcat server, and worked reasonably well. Unfortunatly, it began to have issues crashing, printing nametags twice, and other issues. The member that wrote it was leaving the club the year after, and no one else wanted to try and fix it. \n\n\nThe Second Nametag System\n\n\n\n\n\n\nThe \nsecond version\n was then written from scratch in the Go language by another member, trying to make it as bulletproof as possible. It got an initial test run at the Maker Day that the club participated in during the spring, allowing a full test before the fair. After some final modifications, it was used at the fair to print to all of the five printers there, and worked great. It never crashed, printed each nametag only once, and did everything it was supposed to.", 
+            "title": "3D Printing"
+        }, 
+        {
+            "location": "/3dprinter/#3d-printing", 
+            "text": "", 
+            "title": "3D Printing"
+        }, 
+        {
+            "location": "/3dprinter/#club-3d-printer", 
+            "text": "As a way to teach members about not only 3d printing, but also electronics and mechanics, the club bought a  Reprappro Monomendel  kit for the members to assemble. This kit was chosen because some of the members had built one on their own time, and could help other members putting it together. Once it was build, we rotated the printed between members, so whoever wanted to print something could. After building the club printer, many members wanted their own. They bought the same kit, and used their experience from building the club printer to build their own.", 
+            "title": "Club 3D Printer"
+        }, 
+        {
+            "location": "/3dprinter/#nametag-printing-at-the-fair", 
+            "text": "With so many members that had their own printers, we needed something for them all to do at the fair. As a way to make some money at it, we came up with the idea of printing custom nametags for fairgoers, for only a dollar each. In order to do this, we needed an automated system to take names, generate the nametag, prepare it for printing, and print it on the printers. To make printing to the printers easier, we set up each printer with a  Raspberry Pi  running  Octoprint . This allowed an easy was to a central server to print to each of the printers, without needing to be directly connected to each one.", 
+            "title": "Nametag Printing at the Fair"
+        }, 
+        {
+            "location": "/3dprinter/#the-original-nametag-system", 
+            "text": "The server to collect and print the nametags has benn revised many times since it's initial release. The one used for the first fair we did nametags was based off a Java Tomcat server, and worked reasonably well. Unfortunatly, it began to have issues crashing, printing nametags twice, and other issues. The member that wrote it was leaving the club the year after, and no one else wanted to try and fix it.", 
+            "title": "The Original Nametag System"
+        }, 
+        {
+            "location": "/3dprinter/#the-second-nametag-system", 
+            "text": "The  second version  was then written from scratch in the Go language by another member, trying to make it as bulletproof as possible. It got an initial test run at the Maker Day that the club participated in during the spring, allowing a full test before the fair. After some final modifications, it was used at the fair to print to all of the five printers there, and worked great. It never crashed, printed each nametag only once, and did everything it was supposed to.", 
+            "title": "The Second Nametag System"
+        }, 
+        {
+            "location": "/projects/", 
+            "text": "Other Projects\n\n\nRobostorm has been involved in many smaller projects throught the years.\n\n\nArcade Machine\n\n\nBecause one year was going to be arcade themed, we had to make an arcade machine. We found some software to run on a \nRaspberry Pi\n called \nPiMAME\n(Now called PiPlay) that would emulate many different arcade macines and games. We found an old CRT to use for a display, and got some arcade buttons and a joystick. The arcade buttons and joystick got wired to a \nTeensy++ 2.0\n to emulate a USB keyboard plugged into the Pi. To finish off the arcade machine, we made a tabletop sized wooden enclosure, and painted it black. The arcade machine works great, and had been very popular at the fair for many years. If you stop by during the fair in coming years, it is likely to be there.", 
+            "title": "Other Projects"
+        }, 
+        {
+            "location": "/projects/#other-projects", 
+            "text": "Robostorm has been involved in many smaller projects throught the years.", 
+            "title": "Other Projects"
+        }, 
+        {
+            "location": "/projects/#arcade-machine", 
+            "text": "Because one year was going to be arcade themed, we had to make an arcade machine. We found some software to run on a  Raspberry Pi  called  PiMAME (Now called PiPlay) that would emulate many different arcade macines and games. We found an old CRT to use for a display, and got some arcade buttons and a joystick. The arcade buttons and joystick got wired to a  Teensy++ 2.0  to emulate a USB keyboard plugged into the Pi. To finish off the arcade machine, we made a tabletop sized wooden enclosure, and painted it black. The arcade machine works great, and had been very popular at the fair for many years. If you stop by during the fair in coming years, it is likely to be there.", 
+            "title": "Arcade Machine"
+        }, 
+        {
+            "location": "/battlebots/", 
+            "text": "Battlebots\n\n\n\n\nBattlebots information will be updated when we approach tourmanemts. The rules are below.", 
+            "title": "Battlebots"
+        }, 
+        {
+            "location": "/battlebots/#battlebots", 
+            "text": "Battlebots information will be updated when we approach tourmanemts. The rules are below.", 
+            "title": "Battlebots"
+        }, 
+        {
+            "location": "/ftc/", 
+            "text": "FTC\n\n\nRobostorm is starting an FTC team for the upcoming 2017-2018 season.  More details to come!", 
+            "title": "FTC"
+        }, 
+        {
+            "location": "/ftc/#ftc", 
+            "text": "Robostorm is starting an FTC team for the upcoming 2017-2018 season.  More details to come!", 
+            "title": "FTC"
+        }, 
+        {
+            "location": "/contact/", 
+            "text": "Contact Us!\n\n\nTo contact us, please email \nleader@robostorm.org", 
+            "title": "Contact Us"
+        }, 
+        {
+            "location": "/contact/#contact-us", 
+            "text": "To contact us, please email  leader@robostorm.org", 
+            "title": "Contact Us!"
+        }, 
+        {
+            "location": "/history/", 
+            "text": "History\n\n\n\n\n2017\n\n\n\n\nAccepted lots of new members. Club trippled in size.\n\n\n\n\n\n\n2016\n\n\n\n\nRedo of club banner\n\n\n\n\nAquabot\n\n\n\n\nStore bottles sold in EEPROM\n\n\nAdd connectors for LEDs, requied switching location of money and electronics boxes\n\n\nReplaced battery\n\n\nAdd keyswitch to renable\n\n\nAdd emergency stop button\n\n\nAdd leds in the drive electronics box to signal enabled\n\n\n\n\n3D Printing\n\n\n\n\n3D Printer control board gets replaced\n\n\n3D Printer bed gets replaced with blank pcb\n\n\n3D Printer bed get insulate underneath with cork\n\n\nNametag app gets redone in Go, works much better\n\n\nNametag server upgraded to Vostro 200\n\n\n\n\nFair\n\n\n\n\nShed is on opposite side of the tent\n\n\nShare tent with Astrobots\n\n\nArcades in shed\n\n\nMAKE OVER $1100 IN AQUABOT AND 3D PRINTER SALES!!!!\n\n\nSell out of Legos in Lego fundraiser\n\n\n\n\n\n\n2015\n\n\n\n\nFirst time at the Makerday at the library\n\n\n\n\nAquabot\n\n\n\n\nMoved Teensy and cooler electronics out of the money box and into its own box\n\n\nAdded keypad to go along with LCD\n\n\nAdded LED strips\n\n\nAdded microcontroller in drive box for enable button\n\n\nMade panels to cover cooler\n\n\n\n\nBattlebots\n\n\n\n\nOfficial field made\n\n\nStart to allow some non Lego components\n\n\n\n\n3D Printing\n\n\n\n\nBuild 3d printer as a club\n\n\nBegan loaning it out\n\n\nFirst year for 3D Printed Nametags\n\n\n\n\nFair\n\n\n\n\nShared tent with Astrobots\n\n\nFirst year flying copters at the fair\n\n\nFirst year doing 3D Printed Nametags\n\n\nOf the 4 printers, only 2 or 3 operational at a time\n\n\nNametage app was buggy and had issues\n\n\nNametag app ran on old laptop\n\n\nStill arcades in the shed, but reserved part of shed for nametag server and our stuff\n\n\nStart selling donated Legos to benifit Tabby's place\n\n\n\n\n\n\n2014\n\n\n\n\nStart to move away from Mindstorms\n\n\nClub grew in size\n\n\n\n\nAquabot\n\n\n\n\n3D Printed Dispenser\n\n\nReal bill acceptor\n\n\nTeensy++ 2.0 for control\n\n\nMuch more reliable\n\n\n\n\nBattlebots\n\n\n\n\nFirst year\n\n\nUsed folded up tables for playing field\n\n\nAll Lego robots\n\n\n\n\nFair\n\n\n\n\nLarger tent\n\n\nRequired personal project for each member\n\n\nFirst year of arcades in the shed, includes both the arcade machine and Pong\n\n\nShared tent with Roborockers\n\n\nDebut of Battlebots, huge success\n\n\n\n\n\n\n2013\n\n\n\n\nStill lots of Lego Mindstorms projects\n\n\nDisplayed at Indipendance Manor\n\n\n\n\nAquabot\n\n\n\n\nFirst year!\n\n\nLego dispenser and bill acceptor\n\n\n\n\nFair\n\n\n\n\nSame size tent and shed\n\n\nShed Lego projects included the Lego Mazebot, Ziplinebot, and ROMbot\n\n\nVarious personal projects in the tent\n\n\nDebut of Aquabot\n\n\n\n\n\n\n2012\n\n\n\n\nClub grew in size\n\n\nClub bought club Mindstorms kits to loan out to members, and for fair projects\n\n\n\n\nFair\n\n\n\n\nGot our own tent at the fair, along with a shed next to it for storage at night\n\n\nMade a small mock-up of the fairgrounds in the shed\n\n\nIncluded Lego Sheep Herder, Ferris Wheel, Tractor Pull, and others\n\n\nVarious personal projects in the tent\n\n\n\n\n\n\nFounding 2011\n\n\n\n\nFirst year as a club\n\n\nStarted with only about 5 members\n\n\n\n\nFair\n\n\n\n\nGot a display in the Ramsburg building and timeslots in the sheep barn for demos\n\n\nAll Lego Mindstorms projects", 
+            "title": "History"
+        }, 
+        {
+            "location": "/history/#history", 
+            "text": "", 
+            "title": "History"
+        }, 
+        {
+            "location": "/history/#2017", 
+            "text": "Accepted lots of new members. Club trippled in size.", 
+            "title": "2017"
+        }, 
+        {
+            "location": "/history/#2016", 
+            "text": "Redo of club banner", 
+            "title": "2016"
+        }, 
+        {
+            "location": "/history/#aquabot", 
+            "text": "Store bottles sold in EEPROM  Add connectors for LEDs, requied switching location of money and electronics boxes  Replaced battery  Add keyswitch to renable  Add emergency stop button  Add leds in the drive electronics box to signal enabled", 
+            "title": "Aquabot"
+        }, 
+        {
+            "location": "/history/#3d-printing", 
+            "text": "3D Printer control board gets replaced  3D Printer bed gets replaced with blank pcb  3D Printer bed get insulate underneath with cork  Nametag app gets redone in Go, works much better  Nametag server upgraded to Vostro 200", 
+            "title": "3D Printing"
+        }, 
+        {
+            "location": "/history/#fair", 
+            "text": "Shed is on opposite side of the tent  Share tent with Astrobots  Arcades in shed  MAKE OVER $1100 IN AQUABOT AND 3D PRINTER SALES!!!!  Sell out of Legos in Lego fundraiser", 
+            "title": "Fair"
+        }, 
+        {
+            "location": "/history/#2015", 
+            "text": "First time at the Makerday at the library", 
+            "title": "2015"
+        }, 
+        {
+            "location": "/history/#aquabot_1", 
+            "text": "Moved Teensy and cooler electronics out of the money box and into its own box  Added keypad to go along with LCD  Added LED strips  Added microcontroller in drive box for enable button  Made panels to cover cooler", 
+            "title": "Aquabot"
+        }, 
+        {
+            "location": "/history/#battlebots", 
+            "text": "Official field made  Start to allow some non Lego components", 
+            "title": "Battlebots"
+        }, 
+        {
+            "location": "/history/#3d-printing_1", 
+            "text": "Build 3d printer as a club  Began loaning it out  First year for 3D Printed Nametags", 
+            "title": "3D Printing"
+        }, 
+        {
+            "location": "/history/#fair_1", 
+            "text": "Shared tent with Astrobots  First year flying copters at the fair  First year doing 3D Printed Nametags  Of the 4 printers, only 2 or 3 operational at a time  Nametage app was buggy and had issues  Nametag app ran on old laptop  Still arcades in the shed, but reserved part of shed for nametag server and our stuff  Start selling donated Legos to benifit Tabby's place", 
+            "title": "Fair"
+        }, 
+        {
+            "location": "/history/#2014", 
+            "text": "Start to move away from Mindstorms  Club grew in size", 
+            "title": "2014"
+        }, 
+        {
+            "location": "/history/#aquabot_2", 
+            "text": "3D Printed Dispenser  Real bill acceptor  Teensy++ 2.0 for control  Much more reliable", 
+            "title": "Aquabot"
+        }, 
+        {
+            "location": "/history/#battlebots_1", 
+            "text": "First year  Used folded up tables for playing field  All Lego robots", 
+            "title": "Battlebots"
+        }, 
+        {
+            "location": "/history/#fair_2", 
+            "text": "Larger tent  Required personal project for each member  First year of arcades in the shed, includes both the arcade machine and Pong  Shared tent with Roborockers  Debut of Battlebots, huge success", 
+            "title": "Fair"
+        }, 
+        {
+            "location": "/history/#2013", 
+            "text": "Still lots of Lego Mindstorms projects  Displayed at Indipendance Manor", 
+            "title": "2013"
+        }, 
+        {
+            "location": "/history/#aquabot_3", 
+            "text": "First year!  Lego dispenser and bill acceptor", 
+            "title": "Aquabot"
+        }, 
+        {
+            "location": "/history/#fair_3", 
+            "text": "Same size tent and shed  Shed Lego projects included the Lego Mazebot, Ziplinebot, and ROMbot  Various personal projects in the tent  Debut of Aquabot", 
+            "title": "Fair"
+        }, 
+        {
+            "location": "/history/#2012", 
+            "text": "Club grew in size  Club bought club Mindstorms kits to loan out to members, and for fair projects", 
+            "title": "2012"
+        }, 
+        {
+            "location": "/history/#fair_4", 
+            "text": "Got our own tent at the fair, along with a shed next to it for storage at night  Made a small mock-up of the fairgrounds in the shed  Included Lego Sheep Herder, Ferris Wheel, Tractor Pull, and others  Various personal projects in the tent", 
+            "title": "Fair"
+        }, 
+        {
+            "location": "/history/#founding-2011", 
+            "text": "First year as a club  Started with only about 5 members", 
+            "title": "Founding 2011"
+        }, 
+        {
+            "location": "/history/#fair_5", 
+            "text": "Got a display in the Ramsburg building and timeslots in the sheep barn for demos  All Lego Mindstorms projects", 
+            "title": "Fair"
+        }, 
+        {
+            "location": "/lock/members/", 
+            "text": "Members Only Section\n\n\nWelcome Robostorm Members and Parents!\n\n\nHere is a place where we will be putting relavant information about the club and useful links.\n\n\nDiscord invite link", 
+            "title": "Members Only"
+        }, 
+        {
+            "location": "/lock/members/#members-only-section", 
+            "text": "Welcome Robostorm Members and Parents!  Here is a place where we will be putting relavant information about the club and useful links.  Discord invite link", 
+            "title": "Members Only Section"
+        }
+    ]
+}
